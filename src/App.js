@@ -2,13 +2,15 @@ import React, { Component } from "react";
 
 // Add in JSON to use for the jaunts
 import pokemon from "./pokemon.json";
+import PokeCard from "./components/PokeCard/index.js";
 
 class App extends Component {
 
+  // Add state of pokemon: pokemon
   state = {
-    pokemon 
+    pokemon
   };
-  
+
   render() {
     return (
 
@@ -40,49 +42,17 @@ class App extends Component {
         <div class="container">
 
           <div class="row">
-            <div class="col-3">
-              <h1>I'm A Picture!</h1>
-            </div>
-            <div class="col-3">
-              <h1>I'm A Picture!</h1>
-            </div>
-            <div class="col-3">
-              <h1>I'm A Picture!</h1>
-            </div>
-            <div class="col-3">
-              <h1>I'm A Picture!</h1>
-            </div>
+            {this.state.pokemon.map(pokemon => (
+              <PokeCard
+                id={pokemon.id}
+                key={pokemon.id}
+                name={pokemon.name}
+                image={pokemon.image}
+              />
+            ))}
           </div>
 
-          <div class="row">
-            <div class="col-3">
-              <h1>I'm A Picture!</h1>
-            </div>
-            <div class="col-3">
-              <h1>I'm A Picture!</h1>
-            </div>
-            <div class="col-3">
-              <h1>I'm A Picture!</h1>
-            </div>
-            <div class="col-3">
-              <h1>I'm A Picture!</h1>
-            </div>
-          </div>
 
-          <div class="row">
-            <div class="col-3">
-              <h1>I'm A Picture!</h1>
-            </div>
-            <div class="col-3">
-              <h1>I'm A Picture!</h1>
-            </div>
-            <div class="col-3">
-              <h1>I'm A Picture!</h1>
-            </div>
-            <div class="col-3">
-              <h1>I'm A Picture!</h1>
-            </div>
-          </div>
 
         </div>
 
