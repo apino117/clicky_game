@@ -1,9 +1,74 @@
 [
     {
         "id": 1,
-        "name": "Pikachu",
-        "image": "https://img.pokemondb.net/artwork/pikachu.jpg",
+        "name": "Cubone",
+        "image": "https://randompokemon.com/sprites/normal/104.gif",
         "hasBeenClicked": false
-
+    },
+    {
+        "id": 2,
+        "name": "NidoKing",
+        "image": "https://randompokemon.com/sprites/normal/34.gif",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 3,
+        "name": "Tauros",
+        "image": "https://randompokemon.com/sprites/normal/128.gif",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 4,
+        "name": "Electabuzz",
+        "image": "https://randompokemon.com/sprites/normal/125.gif",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 5,
+        "name": "Pidgeot",
+        "image": "https://randompokemon.com/sprites/normal/18.gif",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 6,
+        "name": "Ivysaur",
+        "image": "https://randompokemon.com/sprites/normal/2.gif",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 7,
+        "name": "Golduck",
+        "image": "https://randompokemon.com/sprites/normal/55.gif",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 8,
+        "name": "Clefable",
+        "image": "https://randompokemon.com/sprites/normal/36.gif",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 9,
+        "name": "Granbull",
+        "image": "https://randompokemon.com/sprites/normal/210.gif",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 10,
+        "name": "Azumarill",
+        "image": "https://randompokemon.com/sprites/normal/184.gif",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 11,
+        "name": "Rapidash",
+        "image": "https://randompokemon.com/sprites/normal/78.gif",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 12,
+        "name": "Charmeleon",
+        "image": "https://randompokemon.com/sprites/normal/5.gif",
+        "hasBeenClicked": false
     }
 ]
