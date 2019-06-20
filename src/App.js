@@ -1,7 +1,14 @@
 import React, { Component } from "react";
 
+// Add in JSON to use for the jaunts
+import pokemon from "./pokemon.json";
+
 class App extends Component {
 
+  state = {
+    pokemon 
+  };
+  
   render() {
     return (
 

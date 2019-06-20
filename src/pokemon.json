@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "name": "Pikachu",
+        "image": "https://img.pokemondb.net/artwork/pikachu.jpg",
+        "hasBeenClicked": false
+
+    }
+]
