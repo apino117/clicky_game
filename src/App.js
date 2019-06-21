@@ -20,11 +20,7 @@ class App extends Component {
     });
   }
 
-  handleBtnClick = event => {
-
-
-
-  }
+  
 
   render() {
     return (
