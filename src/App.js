@@ -7,20 +7,9 @@ class App extends Component {
 
   // Add state of pokemon: pokemon
   state = {
-    
+
   };
 
-  handleInputChange(event) {
-    const target = event.target;
-    const value = target.type === 'checkbox' ? target.checked : target.value;
-    const name = target.name;
-
-    this.setState({
-      [name]: value
-    });
-  }
-
-  
 
   render() {
     return (
