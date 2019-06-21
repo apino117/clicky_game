@@ -42,7 +42,7 @@ class PokeField extends React.Component {
 
     handleBtnClick = event => {
 
-        alert("click");
+        // alert("click");
         this.setState({
             pokemon
         });
