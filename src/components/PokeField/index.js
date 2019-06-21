@@ -21,15 +21,6 @@ class PokeField extends React.Component {
         pokemon
     };
 
-    handleBtnClick = event => {
-
-        alert("click");
-
-
-    }
-
-
-
     renderPokemon() {
 
         const shuffledPokemon = shuffleArray(this.state.pokemon);
@@ -47,6 +38,15 @@ class PokeField extends React.Component {
                 ))}
             </div>
         );
+    }
+
+    handleBtnClick = event => {
+
+        alert("click");
+        this.setState({
+            pokemon
+        });
+
     }
 
     render() {
