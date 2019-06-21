@@ -12,7 +12,7 @@ class PokeField extends React.Component {
 
     handleBtnClick = event => {
 
-
+        alert("click");
 
     }
 
@@ -25,7 +25,7 @@ class PokeField extends React.Component {
                         key={pokemon.id}
                         name={pokemon.name}
                         image={pokemon.image}
-                        onClick={function () { alert('click'); }}
+                        onClick={this.handleBtnClick}
                     />
                 ))}
             </div>
