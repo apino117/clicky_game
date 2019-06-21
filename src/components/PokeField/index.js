@@ -16,7 +16,7 @@ class PokeField extends React.Component {
 
     }
 
-    render() {
+    renderPokemon() {
         return (
             <div class="row">
                 {this.state.pokemon.map(pokemon => (
@@ -25,9 +25,17 @@ class PokeField extends React.Component {
                         key={pokemon.id}
                         name={pokemon.name}
                         image={pokemon.image}
-                        onClick={function() { alert('click'); }}
+                        onClick={function () { alert('click'); }}
                     />
                 ))}
+            </div>
+        );
+    }
+
+    render() {
+        return (
+            <div class="row">
+                {this.renderPokemon()}
             </div>
         );
     };
