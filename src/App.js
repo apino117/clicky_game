@@ -1,15 +1,30 @@
 import React, { Component } from "react";
 
 // Add in JSON to use for the jaunts
-import pokemon from "./pokemon.json";
-import PokeCard from "./components/PokeCard/index.js";
+import PokeField from "./components/PokeField/index.js";
 
 class App extends Component {
 
   // Add state of pokemon: pokemon
   state = {
-    pokemon
+    
   };
+
+  handleInputChange(event) {
+    const target = event.target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const name = target.name;
+
+    this.setState({
+      [name]: value
+    });
+  }
+
+  handleBtnClick = event => {
+
+
+
+  }
 
   render() {
     return (
@@ -41,18 +56,8 @@ class App extends Component {
         {/* Main Content */}
         <div class="container">
 
-          <div class="row">
-            {this.state.pokemon.map(pokemon => (
-              <PokeCard
-                id={pokemon.id}
-                key={pokemon.id}
-                name={pokemon.name}
-                image={pokemon.image}
-              />
-            ))}
-          </div>
-
-
+          {/* Pokefield Smart Component */}
+          <PokeField></PokeField>
 
         </div>
 
