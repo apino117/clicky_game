@@ -7,20 +7,22 @@ class Score extends React.Component {
         score: 0
     };
 
-    incrementScore() {
+    incrementScore = event => {
 
-        let score
-        score++;
+        
+
+        let newScore = this.state.score
+        newScore++;
 
         this.setState({
-            score
+            score: newScore
         });
     }
 
     render() {
         return (
             <div className="card">
-                <button onClick={function () { alert('click'); }}>Increment</button>
+                <button onClick={this.incrementScore}>Increment</button>
                 <p class="card-text">Score: {this.state.score}</p>
             </div>
         );
