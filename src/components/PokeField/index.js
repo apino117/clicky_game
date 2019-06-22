@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import pokemon from "../../pokemon.json";
 import PokeCard from "../PokeCard";
+import Score from "../Score"
 
 
 function shuffleArray(array) {

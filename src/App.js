@@ -8,7 +8,7 @@ class App extends Component {
 
   // Add state of pokemon: pokemon
   state = {
-
+    
   };
 
 
