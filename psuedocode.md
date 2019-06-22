@@ -32,5 +32,5 @@ Footer
 
 1. Picture Card (picture, whether or not it's been clicked)
 1. Guess result (you guessed right or wrong)
-1. Score(?)
+1. Score
 1. Top Score(?)
