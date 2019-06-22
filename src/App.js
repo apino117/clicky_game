@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 
-// Add in JSON to use for the jaunts
+
 import PokeField from "./components/PokeField/index.js";
+import Score from "./components/Score/index.js"
 
 class App extends Component {
 
@@ -24,9 +25,9 @@ class App extends Component {
           <li class="nav-item">
             <a class="nav-link" href="#">Instructions</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Score</a>
-          </li>
+          <Score
+          score={0}
+          ></Score>
           <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Top Score</a>
           </li>
