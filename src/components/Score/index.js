@@ -7,6 +7,16 @@ class Score extends React.Component {
         score: 0
     };
 
+    incrementScore() {
+
+        let score
+        score++;
+
+        this.setState({
+            score
+        });
+    }
+
     render() {
         return (
             <div className="card">
