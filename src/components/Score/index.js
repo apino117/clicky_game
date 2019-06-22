@@ -1,13 +1,21 @@
 import React from "react";
 import "./style.css";
 
-function Score(props) {
+class Score extends React.Component {
 
-  return (
-    <div className="card">
-      <p class="card-text">Score: {props.score}</p>
-    </div>
-  );
+    state = {
+        score: 0
+    };
+
+    render() {
+        return (
+            <div className="card">
+                <button onClick={function () { alert('click'); }}>Increment</button>
+                <p class="card-text">Score: {this.state.score}</p>
+            </div>
+        );
+    }
+
 }
 
 export default Score;

@@ -25,9 +25,7 @@ class App extends Component {
           <li class="nav-item">
             <a class="nav-link" href="#">Instructions</a>
           </li>
-          <Score
-          score={0}
-          ></Score>
+          <Score></Score>
           <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Top Score</a>
           </li>
